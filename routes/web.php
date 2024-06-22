@@ -7,7 +7,7 @@ Route::get('/', function () {
 });
 
 Route::get('/public', function () {
-    return view('welcome');
+    return redirect('/');
 });
 
 Route::get('/login', function () {
