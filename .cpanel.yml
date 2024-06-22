@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/centuryo/laravelDeployed/
+    - export DEPLOYPATH=/home/centuryo/public_html/
     - /bin/cp -R * $DEPLOYPATH
