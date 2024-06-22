@@ -6,3 +6,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/public', function () {
+    return view('welcome');
+});
